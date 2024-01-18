@@ -5,3 +5,11 @@
 .superhero h2 {
   text-align: center;
 }
+
+.superhero img {
+  width: 10vw;
+  margin: 0 auto;
+  border-radius: 100%;
+  display: block;
+  object-fit: cover;
+}
