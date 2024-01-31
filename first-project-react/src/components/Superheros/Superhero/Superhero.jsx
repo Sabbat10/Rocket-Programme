@@ -7,7 +7,7 @@ export default function Superhero({
   description,
   films = ["Aucun film"],
   photo = "../../../../public/profil.jpeg",
-  ...props
+  // ...props
 }) {
   return (
     <div className="superhero">

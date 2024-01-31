@@ -16,7 +16,7 @@ export default function App() {
           nom="Iron Man"
           description="Alors qu'il fait l'essai d'une arme de son invention en Afghanistan, le milliardaire Tony Stark est capturé par des insurgés qui le forcent à travailler pour eux. Mais à leur insu, le scientifique crée pour lui-même une armure superpuissante au moyen de laquelle il s'évade et rentre aux États-Unis."
           films={["Iron Man 1", "Iron Man 2", "Iron Man 3"]}
-          // photo={iromMan}
+          photo={iromMan}
         />
 
         {/* Superhero numéro 2 */}
