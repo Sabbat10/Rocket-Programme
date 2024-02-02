@@ -5,6 +5,7 @@ import "./App.css";
 import iromMan from "../public/iron man.jpg";
 import loki from "../public/loki.jpeg";
 import capitaineAmerica from "../public/captain-america.webp";
+import data from "./components/data";
 
 export default function App() {
   return (
@@ -23,7 +24,7 @@ export default function App() {
           
           En 2022, le film est sélectionné par la National Film Registry de la Bibliothèque du Congrès pour y être conservé, comme étant « culturellement, historiquement ou esthétiquement important »1."
           films={["Iron Man 1", "Iron Man 2", "Iron Man 3"]}
-          photo={iromMan}
+          // photo={iromMan}
         />
 
         {/* Superhero numéro 2 */}

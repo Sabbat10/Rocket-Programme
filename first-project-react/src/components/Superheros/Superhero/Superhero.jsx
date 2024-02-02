@@ -8,12 +8,9 @@ export default function Superhero({
   description,
   films = ["Aucun film"],
   photo = "../../../../public/profil.jpeg",
-<<<<<<< HEAD
-  // ...props
-=======
+  // // ...props
   details,
   ...props
->>>>>>> f1f8e0231c5495e0093af283284e8251c0f70dcd
 }) {
   // variable
   const [contenu, setContenu] = useState();
