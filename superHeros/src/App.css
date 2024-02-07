@@ -1,0 +1,14 @@
+.flex {
+  gap: 15px;
+  justify-content: space-around;
+  margin: 0 15px;
+}
+
+.superHero {
+  background-color: #f2f2f2;
+  padding: 5px;
+}
+
+.superHero h2 {
+  text-align: center;
+}
