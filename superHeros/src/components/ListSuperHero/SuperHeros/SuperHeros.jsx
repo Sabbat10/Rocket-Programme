@@ -12,7 +12,7 @@ export default function SuperHeros({
   ...props
 }) {
   // state
-  const [contenu, setContenu] = useState("");
+  const [montrerLesDetails, setMontrerLesDetails] = useState(false);
 
   return (
     <div>
@@ -32,7 +32,7 @@ export default function SuperHeros({
         </h2>
         <p>{description}</p>
         {/* details  */}
-        <div className="read-more" onClick={() => setContenu(details)}>
+        <div className="read-more" onClick={() => setMontrerLesDetails(true)}>
           En savoir plus
         </div>
         <div
@@ -41,7 +41,7 @@ export default function SuperHeros({
             whiteSpace: "pre-line",
           }}
         >
-          {contenu}
+          {montrerLesDetails ? details : null}
         </div>
         <br />
         {/* films */}
